@@ -10,7 +10,7 @@
 }
 body {
   font-weight: 500;
-  color: #cccdcfb3;
+  color: #00BFFF;
   background-color: #00151f;
   letter-spacing: 0.05em;
   overflow: hidden;
@@ -95,7 +95,7 @@ p {
   transition: all 0.4s ease-in-out;
 }
 .trm-label.trm-label-light {
-  color: #cccdcfb3;
+  color: #00BFFF;
 }
 .trm-label.trm-label-color {
   color: #15ad66;
@@ -1753,7 +1753,7 @@ blockquote:after {
   font-weight: 300;
   font-size: 14px;
   margin: 0 5px;
-  color: #cccdcfb3;
+  color: #00BFFF;
 }
 .trm-price .trm-price-list {
   padding: 0;
@@ -2326,7 +2326,7 @@ form textarea:focus,
   font-size: 11px;
   font-weight: 600;
   text-align: center;
-  color: #cccdcfb3;
+  color: #00BFFF;
   opacity: 0.8;
   width: 15px;
   height: 15px;
@@ -2427,7 +2427,7 @@ footer {
   padding: 20px;
 }
 footer .trm-footer-item {
-  color: #cccdcfb3;
+  color: #00BFFF;
   height: 1.6rem;
   font-size: 0.9rem;
   display: flex;
@@ -2714,7 +2714,7 @@ footer #since {
 }
 .trm-publication details summary {
   background-color: #00151f;
-  color: #cccdcfb3;
+  color: #00BFFF;
   padding: 10px 20px;
   margin-bottom: 10px;
 }
@@ -2737,7 +2737,7 @@ footer #since {
   margin-top: 2rem;
   padding: 0.5rem 1rem;
   border-left: 4px solid #15ad66;
-  background-color: rgba(204, 205, 207, 0.05);
+  background-color: rgba(0, 191, 255, 0.05);
   list-style: none;
   word-break: break-all;
   position: relative;
@@ -2905,7 +2905,7 @@ footer #since {
   font-size: 1.5rem;
   border-radius: 3rem;
   padding: 1rem 1.5rem;
-  border: 1px solid #cccdcfb3;
+  border: 1px solid #00BFFF;
   text-align: center;
   height: auto;
   margin-bottom: 0;
@@ -2918,7 +2918,7 @@ footer #since {
 .trm-search-popup .trm-search-result-container .search-stats {
   margin: 10px;
   padding: 10px;
-  border-bottom: 1px solid #cccdcfb3;
+  border-bottom: 1px solid #00BFFF;
 }
 .trm-search-popup .trm-search-result-container .search-result-list {
   height: calc(100vh - 15rem);
@@ -2933,7 +2933,7 @@ footer #since {
   list-style: none;
   padding: 10px;
   cursor: pointer;
-  border-bottom: 1px dashed #cccdcfb3;
+  border-bottom: 1px dashed #00BFFF;
 }
 .trm-search-popup .trm-search-result-container .search-result-list li .search-result-title {
   font-size: 1.1rem;
