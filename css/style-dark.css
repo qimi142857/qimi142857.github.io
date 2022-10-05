@@ -84,7 +84,7 @@ p {
   opacity: 1 !important;
 }
 .trm-accent-color {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-label {
   text-transform: uppercase;
@@ -98,7 +98,7 @@ p {
   color: #cccdcfb3;
 }
 .trm-label.trm-label-color {
-  color: #afb42b;
+  color: #15ad66;
 }
 a.trm-label i {
   margin-top: -1px;
@@ -112,7 +112,7 @@ a.trm-label .fa-arrow-right {
 a.trm-label:focus,
 a.trm-label:hover {
   outline: inherit;
-  color: #afb42b;
+  color: #15ad66;
 }
 a.trm-label:focus .fa-arrow-right,
 a.trm-label:hover .fa-arrow-right,
@@ -192,7 +192,7 @@ html.is-animating .trm-swup-animation {
     box-shadow: 0 0 0 transparent;
   }
   100% {
-    box-shadow: 0 0 20px rgba(175, 180, 43, 0.3);
+    box-shadow: 0 0 20px rgba(21, 173, 102, 0.3);
   }
 }
 .trm-scroll-container {
@@ -208,7 +208,7 @@ html.is-animating .trm-swup-animation {
   width: 4px;
   right: 1px;
   border-radius: 10px;
-  background-color: #afb42b;
+  background-color: #15ad66;
   opacity: 1;
 }
 .symbol-icon {
@@ -249,7 +249,7 @@ html.is-animating .trm-swup-animation {
 *::-moz-selection,
 *::selection {
   color: #dedee0;
-  background-color: #afb42b;
+  background-color: #15ad66;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -257,7 +257,7 @@ html.is-animating .trm-swup-animation {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
-  background-color: rgba(175, 180, 43, 0.5);
+  background-color: rgba(21, 173, 102, 0.5);
 }
 ::-webkit-scrollbar-track {
   border-radius: 2px;
@@ -808,7 +808,7 @@ pre .deletion {
   letter-spacing: 0;
 }
 .trm-top-bar .container .trm-left-side .trm-logo-frame .trm-logo-text span {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-top-bar .container .trm-left-side .trm-logo-frame img {
   width: 32px !important;
@@ -878,7 +878,7 @@ pre .deletion {
   border-radius: 10px;
   height: 4px;
   width: 0;
-  background-color: #afb42b;
+  background-color: #15ad66;
   transition: all 0.4s ease-in-out;
 }
 .trm-menu nav ul li a {
@@ -895,7 +895,7 @@ pre .deletion {
   transition: all 0.4s ease-in-out;
 }
 .trm-menu nav ul li a:hover {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-menu nav ul li ul {
   padding: 10px;
@@ -968,7 +968,7 @@ pre .deletion {
         pointer-events: all
     } */
   .trm-menu nav ul li.current-menu-item a {
-    color: #afb42b;
+    color: #15ad66;
   }
   .trm-menu nav ul li.current-menu-item ul li a {
     color: #dedee0;
@@ -1109,7 +1109,7 @@ pre .deletion {
 }
 .trm-mode-switcher-place .trm-mode-switcher .tgl-light + .trm-swich:after {
   width: 47%;
-  border: solid 3px #afb42b;
+  border: solid 3px #15ad66;
   border-radius: 50%;
   background: #00283a;
   transition: all 0.2s ease-in-out;
@@ -1201,7 +1201,7 @@ pre .deletion {
   left: 0;
   height: 10px;
   width: 10px;
-  border: solid 3px #afb42b;
+  border: solid 3px #15ad66;
   border-radius: 50%;
 }
 .trm-list li + li {
@@ -1223,7 +1223,7 @@ blockquote {
 }
 blockquote:before {
   margin: 0;
-  color: #afb42b;
+  color: #15ad66;
   width: 50px;
   line-height: 55px;
   content: '"';
@@ -1235,7 +1235,7 @@ blockquote:before {
 blockquote:after {
   margin: 0;
   width: 50px;
-  color: #afb42b;
+  color: #15ad66;
   line-height: 55px;
   content: '"';
   position: absolute;
@@ -1278,7 +1278,7 @@ blockquote:after {
 .trm-skill-card .trm-progressbar-frame .trm-progressbar {
   width: 0;
   height: 100%;
-  background-color: #afb42b;
+  background-color: #15ad66;
   transition: all 0.8s ease-in-out;
   transition-delay: 0.4s;
 }
@@ -1414,7 +1414,7 @@ blockquote:after {
   transition: all 0.4s ease-in-out;
 }
 .trm-main-card-frame .trm-main-card .trm-social a:hover {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-main-card-frame .trm-main-card .trm-social a i {
   font-size: 20px;
@@ -1502,7 +1502,7 @@ blockquote:after {
   line-height: 20px;
 }
 .trm-counter-up .trm-counter-number .trm-counter-symbol {
-  color: #afb42b;
+  color: #15ad66;
   font-size: 16px;
   margin-left: 3px;
 }
@@ -1571,7 +1571,7 @@ blockquote:after {
 }
 .trm-blog-card .trm-card-descr .trm-category a:hover {
   opacity: 1;
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-blog-card:hover .trm-cover-frame img {
   transform: scale(1);
@@ -1649,7 +1649,7 @@ blockquote:after {
   transform: scale(1);
 }
 .trm-older-publications-card .trm-older-publication .trm-op-top:hover .trm-op-title {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-older-publications-card .trm-older-publication .trm-category a {
   opacity: 0.6;
@@ -1657,7 +1657,7 @@ blockquote:after {
 }
 .trm-older-publications-card .trm-older-publication .trm-category a:hover {
   opacity: 1;
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-older-publications-card .trm-older-publication .trm-card-data {
   padding: 0;
@@ -1712,7 +1712,7 @@ blockquote:after {
   display: inline-block;
   padding: 3px 10px;
   transform: translateY(-2px);
-  background-color: #afb42b;
+  background-color: #15ad66;
 }
 .trm-price {
   position: relative;
@@ -1733,7 +1733,7 @@ blockquote:after {
   letter-spacing: 2px;
   line-height: 20px;
   padding: 0 40px;
-  background-color: #afb42b;
+  background-color: #15ad66;
   height: 20px;
   transform: rotate(45deg);
   position: absolute;
@@ -1807,7 +1807,7 @@ blockquote:after {
   transition: all 0.4s ease-in-out;
 }
 .trm-portfolio-item .trm-item-description .trm-zoom-icon {
-  background-color: #afb42b;
+  background-color: #15ad66;
   border-radius: 50%;
   color: #fcfcfe;
   width: 40px;
@@ -1955,9 +1955,9 @@ blockquote:after {
 }
 .trm-btn {
   white-space: nowrap;
-  background-color: #afb42b;
+  background-color: #15ad66;
   height: 45px;
-  border: solid 2px #afb42b;
+  border: solid 2px #15ad66;
   color: #fcfcfe;
   text-transform: uppercase;
   font-size: 11px;
@@ -1994,8 +1994,8 @@ blockquote:after {
 .trm-btn:hover {
   transform: scale(1.03);
   color: #fcfcfe;
-  background-color: #c0ca33;
-  border: solid 2px #c0ca33;
+  background-color: #6abd78;
+  border: solid 2px #6abd78;
 }
 .trm-btn:hover .fa-arrow-right {
   transform: translateX(5px);
@@ -2071,7 +2071,7 @@ blockquote:after {
 .trm-video .trm-play-button {
   position: absolute;
   z-index: 39999;
-  background-color: #afb42b;
+  background-color: #15ad66;
   border-radius: 50%;
   box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.6);
   color: #00283a;
@@ -2227,7 +2227,7 @@ form textarea:focus,
   transition: all 0.4s ease-in-out;
 }
 .trm-banner .trm-banner-content .trm-banner-text .trm-breadcrumbs li a:hover {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-banner .trm-banner-content .trm-banner-text .trm-breadcrumbs li span {
   opacity: 0.8;
@@ -2350,7 +2350,7 @@ form textarea:focus,
   position: relative;
 }
 .trm-timeline .trm-timeline-item .trm-timeline-mark-light {
-  background: #c0ca33;
+  background: #6abd78;
   position: absolute;
   top: 15px;
   left: -11px;
@@ -2367,7 +2367,7 @@ form textarea:focus,
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: solid 3px #afb42b;
+  border: solid 3px #15ad66;
   background: #00283a;
 }
 .trm-timeline .trm-timeline-item:hover .trm-timeline-mark-light {
@@ -2435,11 +2435,11 @@ footer .trm-footer-item {
   align-items: center;
 }
 footer .trm-footer-item a {
-  color: #afb42b;
+  color: #15ad66;
   transition: all 0.4s ease-in-out;
 }
 footer .trm-footer-item a:hover {
-  color: #c0ca33;
+  color: #6abd78;
 }
 footer .footer-separator,
 footer #since {
@@ -2471,11 +2471,11 @@ footer #since {
 }
 .trm-pagination a:hover {
   opacity: 1;
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-pagination span {
   color: #fcfcfe;
-  background-color: #afb42b;
+  background-color: #15ad66;
 }
 .fancybox-slide--video .fancybox__content {
   max-width: 80% !important;
@@ -2495,7 +2495,7 @@ footer #since {
   background-color: #00283a;
 }
 .fancybox__thumbs-active:before {
-  border: solid 3px #afb42b !important;
+  border: solid 3px #15ad66 !important;
 }
 .fancybox__bg {
   background-color: #00151f;
@@ -2575,10 +2575,10 @@ footer #since {
   margin-bottom: 1rem;
 }
 .trm-publication blockquote::before {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-publication blockquote::after {
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-publication img {
   display: block;
@@ -2619,7 +2619,7 @@ footer #since {
   left: 0;
   height: 10px;
   width: 10px;
-  border: solid 3px #afb42b;
+  border: solid 3px #15ad66;
   border-radius: 50%;
 }
 .trm-publication ul li + li {
@@ -2677,7 +2677,7 @@ footer #since {
   transition: all 0.4s ease-in-out;
   content: '';
   position: absolute;
-  background-color: #afb42b;
+  background-color: #15ad66;
   width: 1em;
   height: 5px;
   bottom: -3px;
@@ -2719,7 +2719,7 @@ footer #since {
   margin-bottom: 10px;
 }
 .trm-publication a {
-  background: linear-gradient(rgba(175, 180, 43, 0.5), rgba(192, 202, 51, 0.5)) bottom no-repeat;
+  background: linear-gradient(rgba(21, 173, 102, 0.5), rgba(106, 189, 120, 0.5)) bottom no-repeat;
   background-size: 100% 0.4em;
   transition: all 0.4s ease-in-out;
 }
@@ -2736,7 +2736,7 @@ footer #since {
   font-size: 0.9rem;
   margin-top: 2rem;
   padding: 0.5rem 1rem;
-  border-left: 4px solid #afb42b;
+  border-left: 4px solid #15ad66;
   background-color: rgba(204, 205, 207, 0.05);
   list-style: none;
   word-break: break-all;
@@ -2748,7 +2748,7 @@ footer #since {
   list-style: none;
 }
 .trm-post-copyright a {
-  color: #afb42b;
+  color: #15ad66;
 }
 /* 文章导航 */
 .trm-tabs .trm-tabs-nav {
@@ -2756,20 +2756,20 @@ footer #since {
   justify-content: center;
 }
 .trm-tabs .trm-tabs-nav .trm-tabs-nav-item {
-  border: 1px solid #afb42b;
+  border: 1px solid #15ad66;
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
   line-height: 2.5rem;
   text-align: center;
   margin: 0 1rem;
-  color: #afb42b;
+  color: #15ad66;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
 .trm-tabs .trm-tabs-nav .trm-tabs-nav-item:hover,
 .trm-tabs .trm-tabs-nav .trm-tabs-nav-item.active {
-  background-color: #afb42b;
+  background-color: #15ad66;
   color: #fff;
 }
 .trm-tabs .trm-tabs-item {
@@ -2893,7 +2893,7 @@ footer #since {
   transition: all 0.4s ease-in-out;
 }
 .trm-search-popup .trm-search-header .trm-search-popup-btn-close:hover {
-  background-color: rgba(175, 180, 43, 0.7);
+  background-color: rgba(21, 173, 102, 0.7);
   color: #fcfcfe;
 }
 .trm-search-popup .trm-search-form {
@@ -2937,7 +2937,7 @@ footer #since {
 }
 .trm-search-popup .trm-search-result-container .search-result-list li .search-result-title {
   font-size: 1.1rem;
-  color: #afb42b;
+  color: #15ad66;
 }
 .trm-reward {
   padding: 2rem 0 0 0;
@@ -2951,7 +2951,7 @@ footer #since {
   align-items: center;
   width: 2.5rem;
   height: 2.5rem;
-  color: #afb42b;
+  color: #15ad66;
   border-radius: 100%;
   cursor: pointer;
 }
