@@ -58,7 +58,7 @@
 
 
 <!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"qimi142857.github.io","author":"无名小卒","root":"/","typed_text":["nothing here"],"favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"theme_version":"1.1.1","theme":{"switch":true,"default":"style-dark"},"search":{"enable":false,"type":"engine","href":"https://www.google.com/search?q=site:","domain":null},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh","post":false,"clipboard":false},"swup":false};</script>
+<script>window.ASYNC_CONFIG = {"hostname":"qimi142857.github.io","author":"无名小卒","root":"/","typed_text":["nothing here"],"favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"theme_version":"1.1.1","theme":{"switch":true,"default":"style-dark"},"search":{"enable":false,"type":"engine","href":"https://www.google.com/search?q=site:","domain":null},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh","post":true,"clipboard":false},"swup":false};</script>
 
 <!-- Theme mode css -->
 
@@ -165,6 +165,20 @@
 							
 						</li>
 						
+						<li class="menu-item-has-children ">
+							<a  href="/about/" target="">
+								关于
+							</a>
+							
+						</li>
+						
+						<li class="menu-item-has-children ">
+							<a  href="/links/" target="">
+								友链
+							</a>
+							
+						</li>
+						
 					</ul>
 				</nav>
 			</div>
@@ -220,7 +234,7 @@
                             文章的存档
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
-                            梦里不知身是客<br>一响贪欢。
+                            为天地立心<br>为生民立命。
                         </h1>
 
                         
@@ -326,6 +340,17 @@
         </li>
     
 </ul>
+
+<!-- info end -->
+<div class="trm-divider trm-mb-40 trm-mt-40"></div>
+<!-- action button -->
+<div class="text-center">
+    <a href="mailto:qimi285714@outlook.com" class="trm-btn">
+        联系我
+        <i class="far fa-envelope"></i>
+    </a>
+</div>
+<!-- action button end -->
 
     
     </div>
@@ -454,10 +479,26 @@
         </div>
       
 
+    
+        <div class="trm-footer-item">
+            博客已萌萌哒运行 <span id="since" class="trm-accent-color"></span> 天
+        </div>
      
 
      
 </footer>
+
+<script>
+    function show_date_time () {
+        BirthDay = new Date("02/03/2022 17:00:00");
+        today = new Date();
+        timeold = (today.getTime() - BirthDay.getTime());
+        msPerDay = 24 * 60 * 60 * 1000
+        day = Math.floor(timeold / msPerDay)
+        since.innerHTML = day
+    }
+    show_date_time()
+</script>
  
                     <!-- footer end -->
 
