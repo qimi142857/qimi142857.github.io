@@ -1,9 +1,70 @@
-@charset "UTF-8";
-.trm-black-icon {
+:root .trm-white-icon {
   display: none;
 }
-.trm-white-icon {
+:root.dark .trm-black-icon {
+  display: none;
+}
+:root.dark .trm-white-icon {
+  display: inline;
   opacity: 0.4;
+}
+:root {
+  --primary: #15ad66;
+  --primary-70: rgba(21, 173, 102, 0.7);
+  --primary-50: rgba(21, 173, 102, 0.5);
+  --primary-30: rgba(21, 173, 102, 0.3);
+  --primary-weak: #6abd78;
+  --primary-weak-50: rgba(106, 189, 120, 0.5);
+  --body-color: #7B7B7D;
+  --body-color-5: rgba(123, 123, 125, 0.05);
+  --body-bg-color: #00151f;
+  --theme-color: #00283a;
+  --theme-bg-color: #fcfcfe;
+  --theme-bg-color-80: rgba(252, 252, 254, 0.8);
+  --theme-bg2-color: #f4f5f7;
+  --box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.15);
+  --box-shadow2: inset 0 0 4px -1px rgba(0, 0, 0, 0.15);
+  --border-dotted: dotted 2px rgba(225, 225, 235, 0.9);
+  --preloader-background: #00283A;
+  --top-bar-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  --card-padding: 40px;
+  --card-bottom-card: 40px;
+  --card-border-radius: 10px;
+}
+:root.dark {
+  --primary: #15ad66;
+  --primary-70: rgba(21, 173, 102, 0.7);
+  --primary-50: rgba(21, 173, 102, 0.5);
+  --primary-30: rgba(21, 173, 102, 0.3);
+  --primary-weak: #6abd78;
+  --primary-weak-50: rgba(106, 189, 120, 0.5);
+  --body-color: #cccdcfb3;
+  --body-color-5: rgba(204, 205, 207, 0.05);
+  --body-bg-color: #00151f;
+  --theme-color: #dedee0;
+  --theme-bg-color: #00283a;
+  --theme-bg-color-80: rgba(0, 40, 58, 0.8);
+  --theme-bg2-color: #02162b;
+  --box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.6);
+  --box-shadow2: inset 0 0 4px -1px rgba(0, 0, 0, 0.6);
+  --border-dotted: dotted 2px rgba(225, 225, 235, 0.15);
+  --preloader-background: #dedee0;
+  --top-bar-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
+}
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        .dark()
+    }
+} */
+@media (max-width: 768px) {
+  :root {
+    --card-padding: 20px;
+    --card-bottom-card: 20px;
+    --card-border-radius: 6px;
+  }
+  :root blockquote:before {
+    top: 0;
+  }
 }
 body {
   font-weight: 500;
