@@ -7,15 +7,15 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-<meta name="description" content="$$(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)$$此题即证明e小于3。证明：用二项式定理展开$$(1+\frac{1}{n})^n&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$进行一次小的变换$$&#x3D;C_n^0+C_n^1\">
+<meta name="description" content="$$(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)$$此题即证明e小于3。证明：用二项式定理展开$$(1+\frac{1}{n})^n&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$进行一次小的变换$$&#x3D;C_n^0+C_n^1\fr">
 <meta property="og:type" content="article">
 <meta property="og:title" content="简单的不等式推导">
 <meta property="og:url" content="https://test.iqimi.top/2022/09/14/%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%8E%A8%E5%AF%BC/index.html">
 <meta property="og:site_name" content="无名小传">
-<meta property="og:description" content="$$(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)$$此题即证明e小于3。证明：用二项式定理展开$$(1+\frac{1}{n})^n&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$进行一次小的变换$$&#x3D;C_n^0+C_n^1\">
+<meta property="og:description" content="$$(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)$$此题即证明e小于3。证明：用二项式定理展开$$(1+\frac{1}{n})^n&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$进行一次小的变换$$&#x3D;C_n^0+C_n^1\fr">
 <meta property="og:locale">
 <meta property="article:published_time" content="2022-09-14T15:06:00.000Z">
-<meta property="article:modified_time" content="2022-10-05T07:50:56.562Z">
+<meta property="article:modified_time" content="2022-11-08T07:33:43.064Z">
 <meta property="article:author" content="无名小卒">
 <meta name="twitter:card" content="summary">
 
@@ -49,6 +49,16 @@
 
     
 
+    
+        
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+
+        
+            
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.css">
+
+        
     
 
 
@@ -84,7 +94,11 @@
 
 <!-- Site Analytics -->
  
-<meta name="generator" content="Hexo 6.3.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
 
 <body>
 
@@ -387,9 +401,7 @@
 </div>
 <div class="trm-card ">
     <article class="trm-publication">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.bootcss.com/mathjax/3.0.5/es5/tex-mml-chtml.js"></script>
-<p>$$<br>(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)<br>$$<br>此题即证明e小于3。<br>证明：<br>用二项式定理展开<br>$$<br>(1+\frac{1}{n})^n<br>&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}<br>$$<br>进行一次小的变换<br>$$<br>&#x3D;C_n^0+C_n^1\frac{1}{n}+C_n^2\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}<br>$$<br>将所有组合数展开<br>$$<br>&#x3D;1+1+\frac{n!}{2!(n-2)!}*\frac{1}{n^2}+\frac{n!}{3!(n-3)!}*\frac{1}{n^3}+\cdots+\frac{1}{n^n}<br>$$<br>将各项分母中阶乘项分离<br>$$<br>&#x3D;1+1+\frac{1}{2!}*\frac{n!}{n^2(n-2)!}+\frac{1}{3!}*\frac{n!}{n^3(n-3)!}+\cdots+\frac{1}{n^n}<br>$$<br>明显其中$$\frac{n!}{n^k(n-k)!}&#x3D;\overbrace{\frac{n(n-1)\cdots(n-k+1)}{n^k}}^{共k项}&lt;1$$<br>故<br>$$<br>(1+\frac{1}{n})^{n}&lt;2+\frac{1}{2!}+\frac{1}{3!}+\cdots+\frac{1}{n!}&lt;3<br>$$<br>得证。</p>
+    <p>$$(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)$$<br>此题即证明e小于3。<br>证明：<br>用二项式定理展开<br>$$(1+\frac{1}{n})^n&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$<br>进行一次小的变换<br>$$&#x3D;C_n^0+C_n^1\frac{1}{n}+C_n^2\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$<br>将所有组合数展开<br>$$&#x3D;1+1+\frac{n!}{2!(n-2)!}*\frac{1}{n^2}+\frac{n!}{3!(n-3)!}*\frac{1}{n^3}+\cdots+\frac{1}{n^n}$$<br>将各项分母中阶乘项分离<br>$$&#x3D;1+1+\frac{1}{2!}*\frac{n!}{n^2(n-2)!}+\frac{1}{3!}*\frac{n!}{n^3(n-3)!}+\cdots+\frac{1}{n^n}$$<br>明显其中$$\frac{n!}{n^k(n-k)!}&#x3D;\overbrace{\frac{n(n-1)\cdots(n-k+1)}{n^k}}^{共k项}&lt;1$$<br>故<br>$$(1+\frac{1}{n})^{n}&lt;2+\frac{1}{2!}+\frac{1}{3!}+\cdots+\frac{1}{n!}&lt;3$$<br>得证。</p>
 
 </article>
     
@@ -568,6 +580,29 @@
 
     
 
+    
+        
+<script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js" data-swup-reload-script></script>
+
+        
+            
+<script src="//cdn.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js" data-swup-reload-script></script>
+
+        
+        
+<script src="//cdn.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js" data-swup-reload-script></script>
+
+        <script data-swup-reload-script>
+              window.renderMathInElement(document.body, {
+                delimiters: [
+                    { left: '$$', right: '$$', display: true },
+                    { left: '$', right: '$', display: false },
+                    { left: '\\(', right: '\\)', display: false },
+                    { left: '\\[', right: '\\]', display: true },
+                ],
+                ...{},
+            })
+        </script>
     
 
 
