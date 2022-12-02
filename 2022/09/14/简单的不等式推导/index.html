@@ -15,7 +15,7 @@
 <meta property="og:description" content="$$(1+\frac{1}{n})^{n}&lt;3(n&#x3D;1,2,\cdots)$$此题即证明e小于3。证明：用二项式定理展开$$(1+\frac{1}{n})^n&#x3D;C_n^n+C_n^{n-1}\frac{1}{n}+C_n^{n-2}\frac{1}{n^2}+\cdots+C_n^0\frac{1}{n^n}$$进行一次小的变换$$&#x3D;C_n^0+C_n^1\fr">
 <meta property="og:locale">
 <meta property="article:published_time" content="2022-09-14T15:06:00.000Z">
-<meta property="article:modified_time" content="2022-11-08T07:33:43.064Z">
+<meta property="article:modified_time" content="2022-12-02T05:18:17.193Z">
 <meta property="article:author" content="无名小卒">
 <meta name="twitter:card" content="summary">
 
@@ -24,10 +24,10 @@
 
 <!-- Favicon -->
 
-    <link href='/img/favicon.svg?v=1.2.1' rel='icon' type='image/png' sizes='16x16' ></link>
+    <link href='/img/favicon.svg?v=1.2.4' rel='icon' type='image/png' sizes='16x16' ></link>
 
 
-    <link href='/img/favicon.svg?v=1.2.1' rel='icon' type='image/png' sizes='32x32' ></link>
+    <link href='/img/favicon.svg?v=1.2.4' rel='icon' type='image/png' sizes='32x32' ></link>
 
 
 
@@ -72,10 +72,10 @@
 
 
 <!-- Variable -->
-<script>window.ASYNC_CONFIG = {"hostname":"test.iqimi.top","author":"无名小卒","root":"/","typed_text":["nothing here"],"favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"theme_version":"1.2.1","theme":{"switch":true,"default":"style-dark"},"search":{"enable":false,"type":"engine","href":"https://www.google.com/search?q=site:","domain":null},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh","post":true,"clipboard":false},"swup":false};</script>
+<script>window.ASYNC_CONFIG = {"hostname":"test.iqimi.top","author":"无名小卒","root":"/","typed_text":["nothing here"],"favicon":{"logo":"/img/favicon.svg","icon16":"/img/favicon.svg","icon32":"/img/favicon.svg","appleTouchIcon":null,"webmanifest":null,"visibilitychange":false,"hidden":"/failure.ico","showText":"(/≧▽≦/)咦！又好了！","hideText":"(●—●)喔哟，崩溃啦！"},"theme_version":"1.2.4","theme":{"switch":true,"default":"style-dark"},"search":{"enable":false,"type":"engine","href":"https://www.google.com/search?q=site:","domain":null},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）","author":"本文作者：","copyright_link":"本文链接：","copyright_license_title":"版权声明：","copyright_license_content":"本博客所有文章除特别声明外，均默认采用 undefined 许可协议。"},"creative_commons":{"license":"by-nc-sa","language":"deed.zh","post":false,"clipboard":false},"swup":false};</script>
 
 <!-- Theme mode css -->
-<link data-swup-theme rel="stylesheet" href="/css/index.css?v=1.2.1" id="trm-switch-style">
+<link data-swup-theme rel="stylesheet" href="/css/index.css?v=1.2.4" id="trm-switch-style">
 <script>
     let defaultMode = ASYNC_CONFIG.theme.default !=='auto' ?  ASYNC_CONFIG.theme.default : (window.matchMedia("(prefers-color-scheme: light)").matches ? 'style-light' : 'style-dark')
     let catchMode = localStorage.getItem('theme-mode') || defaultMode;
@@ -230,7 +230,7 @@
     <div class="trm-banner" data-scroll data-scroll-direction="vertical">
     
     <!-- banner cover -->
-    <img src="/img/banner.png" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-3">
+    <img style="object-position:top;object-fit:cover;" src="/img/banner.png" alt="banner" class="trm-banner-cover" data-scroll data-scroll-direction="vertical" data-scroll-speed="-3">
     <!-- banner cover end -->
     
 
@@ -389,11 +389,11 @@
     <div class="col-sm-4">
         <div class="trm-card trm-label trm-label-light text-center">
             <i class="far fa-clock trm-icon"></i><br>
-            11:06
+            23:06
         </div>
     </div>
     <div class="col-sm-4">
-        <div class="trm-card trm-label trm-label-light text-center">
+        <div id="post-author" class="trm-card trm-label trm-label-light text-center">
             <i class="far fa-user trm-icon"></i><br>
             无名小卒
         </div>
@@ -406,22 +406,6 @@
 </article>
     
     
-
-<ul class="trm-post-copyright">
-    <li class="trm-post-copyright-author">
-        <strong>本文作者：</strong>
-        无名小卒
-    </li>
-    <li class="trm-post-copyright-link">
-        <strong>本文链接：</strong>
-        <a href="https://test.iqimi.top/2022/09/14/%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%8E%A8%E5%AF%BC/" title="简单的不等式推导">https://test.iqimi.top/2022/09/14/%E7%AE%80%E5%8D%95%E7%9A%84%E4%B8%8D%E7%AD%89%E5%BC%8F%E6%8E%A8%E5%AF%BC/</a>
-    </li>
-    <li class="trm-post-copyright-license">
-        <strong>版权声明：</strong>
-        本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA 4.0</a> 许可协议。
-    </li>
-</ul>
-
 </div>
 <div class="row">
     <div class="col-lg-12">
@@ -435,7 +419,10 @@
         <div class="col-lg-6">
     <div class="trm-blog-card trm-scroll-animation" data-scroll data-scroll-offset="40">
         <a href="/2022/10/17/algorithm%E5%A4%87%E5%BF%98/" class="trm-cover-frame trm-anima-link">
-            <img src="/2022/10/17/algorithm%E5%A4%87%E5%BF%98/algorithm.jpg" alt="cover">
+            
+            
+                <img src="/2022/10/17/algorithm%E5%A4%87%E5%BF%98/algorithm.jpg" alt="cover">
+            
         </a>
         <div class="trm-card-descr">
             <div class="trm-label trm-category trm-mb-20">
@@ -451,7 +438,7 @@
             <div class="trm-divider trm-mb-20 trm-mt-20"></div>
             <ul class="trm-card-data trm-label">
                 <li>22/10/17</li>
-                <li>08:10</li>
+                <li>20:10</li>
                 
                 
             </ul>
@@ -463,7 +450,10 @@
         <div class="col-lg-6">
     <div class="trm-blog-card trm-scroll-animation" data-scroll data-scroll-offset="40">
         <a href="/2022/09/09/python%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%9C%E7%AD%AE%E6%96%B9%E6%B3%95/" class="trm-cover-frame trm-anima-link">
-            <img src="/2022/09/09/python%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%9C%E7%AD%AE%E6%96%B9%E6%B3%95/Duality.png" alt="cover">
+            
+            
+                <img src="/2022/09/09/python%E5%AE%9E%E7%8E%B0%E7%AE%80%E5%8D%95%E7%9A%84%E5%8D%9C%E7%AD%AE%E6%96%B9%E6%B3%95/Duality.png" alt="cover">
+            
         </a>
         <div class="trm-card-descr">
             <div class="trm-label trm-category trm-mb-20">
@@ -479,7 +469,7 @@
             <div class="trm-divider trm-mb-20 trm-mt-20"></div>
             <ul class="trm-card-data trm-label">
                 <li>22/09/09</li>
-                <li>10:01</li>
+                <li>22:01</li>
                 
                 
             </ul>
@@ -488,6 +478,9 @@
 </div>
     
 </div>
+
+    
+
 
 
                     <div class="trm-divider footer-divider"></div>
@@ -508,14 +501,14 @@
             <span> 
                 主题 - 
                 <a rel="noopener" href='https://github.com/MaLuns/hexo-theme-async' target='_blank'>Async</a>
-                v1.2.1
+                v1.2.4
             </span>
         </div>
       
 
     
         <div class="trm-footer-item">
-            博客已萌萌哒运行 <span id="since" class="trm-accent-color"></span> 天
+            博客已共计运行 <span id="since" class="trm-accent-color"></span> 天
         </div>
      
 
@@ -575,11 +568,12 @@
     
 
     
-        <script src="/js/plugins/typing.js?v=1.2.1"></script>
+        <script src="/js/plugins/typing.js?v=1.2.4"></script>
     
 
     
 
+    <!-- 数学公式 -->
     
         
 <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js" data-swup-reload-script></script>
@@ -606,6 +600,13 @@
     
 
 
+    <!-- 评论插件 -->
+    
+        
+        
+    
+
+
 
 <!-- 评论插件 -->
 
@@ -628,7 +629,7 @@
     
 
 
-<script id="async-script" src="/js/main.js?v=1.2.1"></script>
+<script id="async-script" src="/js/main.js?v=1.2.4"></script>
 
 </body>
 
